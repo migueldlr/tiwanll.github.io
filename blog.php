@@ -11,7 +11,8 @@
 	<script src="circles.js" type="text/javascript"></script>
 	<script src="randomcolors.js" type="text/javascript"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Miguel de los Reyes - Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Miguel de los Reyes - Blog</title>
 </head>
 
 <body>
@@ -25,13 +26,13 @@
 		<div id="menu" class="scroller">
 			<nav>
 				<ul>
-					<li><a href="index.html" id="currentLink">Home</a></li>
-					<li><a href="blog.php">Blog</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="blog.php" id="currentLink">Blog</a></li>
 					<li><a href="portfolio.html">Portfolio</a></li>
 					<li id="dropdown"><a id="shodortitle" href="https://shodor.org">Shodor<span class="hidemobile"> Resources</span></a>
 						<ul>
 							<li><a href="https://webmail.shodor.org">Webmail</a></li>
-							<li><a href="https://wiki.shodor.org/"><span class="hidemobile">Shodor</span> Wiki</a> </li>
+							<li><a href="https://wiki.shodor.org/"><span class="hidemobile">Shodor </span>Wiki</a> </li>
 							<li><a href="https://www.shodor.org/reflections">Reflections</a></li>
 							<li><a href="https://intranet.shodor.org/officeLocator"><span class="hidemobile">Time </span>Clock</a></li>
 							<li><a href="https://shodor.org/tools"><span class="hidemobile">Shodor </span>Intranet</a></li>
@@ -40,35 +41,31 @@
 				</ul>
 			</nav>
 		</div>
-		
 		<div id="content">
-			
-			<h2 id="subheader">Home</h2>
-			<p>
-				This is the official website of Miguel de los Reyes, apprentice at Shodor.
-			</p>
-			<p>
-				Hello, and welcome to my website. My name is Miguel de los Reyes and I am a 
-				sophomore in high school, where I enjoy most of my classes. 
-				I like programming, playing guitar, listening to music, eating, and sleeping, especially all at once. 
-				I also like science.
-			</p>
-			<p>
-				I made this website at Shodor, where I've been a part of their Shodor Scholars Program 
-				and am now an apprentice for the 2013-2014 apprentice batch. I hope to learn 
-				about computational science, modeling, and design here.
-			</p>
-			<p>
-				On this site is my blog, where I document my doings at Shodor each Saturday, 
-				and a portfolio, where I will put projects and other fruits of my labor at Shodor.
-			</p>
+			<h2 id="subheader">Blog</h2>
+			<p>This is the official blog of Miguel de los Reyes, apprentice at Shodor.</p>
+			<?php
+				$blog = simplexml_load_file("xmlblog.xml");
+				$varHTML = "";
+				foreach($blog->section as $section){
+					$varHTML .= "<h3 class='section-title'>" . $section . "</h3>";
+					$varHTML .= "<div id=" . $section . ">";
+					foreach($section->children() as $entry){
+						$varHTML .= "<h3 class='date-subheader'>".$entry->date."</h3>";
+						$varHTML .= "<p class='entry'>" . $entry->content . "</p>";
+					}
+					$varHTML .= "</div>";
+				}
+				
+				echo $varHTML;
+			?>
 		</div>
 		<div id="footer">
 			<p>
 				Created by Miguel de los Reyes. Thanks to Shodor Staff.
 			</p>
 		</div>
-	</div>
+	
 </body>
 
 </html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<title>Reader</title>
+	<script src="readerjs.js"></script>
+	<link rel='stylesheet' type='text/css' href='readercss.css'/>
+<head>
+</head>
+<body>
+<h1 id="header">Reader</h1>
+<p id="word"></p>
+<div id="inputs">
+	<input type="text" id="speed" value="400" placeholder="Words per Minute" />
+	<button type="button" onclick="restart();" id="restartButton">Restart</button>
+	<button type="button" onclick="startdisplay();" id="startButton">Start</button>
+	<button type="button" onclick="stopdisplay();" id="stopButton" disabled="true">Stop</button>
+	<br />
+	<button type="button" onclick="showparagraph();" id="paragraphButton">Show Paragraph</button>
+	<br />
+	<input type="file" id="files" name="file" />
+	<button onclick="readBlob();">Change Paragraph</button>
+	
+</div>
+<div id='footer'>
+		<a href='http://shodor.org/~migueldr/portfolio.html'>Home</a>
+		<a href='about.html'>About</a>
+	</div>
+</body>
+</html>

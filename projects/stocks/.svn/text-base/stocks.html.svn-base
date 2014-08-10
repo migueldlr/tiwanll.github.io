@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stocks</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="stocks.js"></script>
+	<link rel='stylesheet' type='text/css' href='stockscss.css'/>
+</head>
+<body>
+	<h1 id="header">Stocks</h1>
+	<p id="time"></p>
+	<input type="text" id="tickers" placeholder="Symbol" />
+	<input type="submit" onclick="changetickers()" value="Add" />
+	<table id="stocktable">	</table>
+	<div id='footer'>
+		<a href='http://shodor.org/~migueldr/portfolio.html'>Home</a>
+		<a href='about.html'>About</a>
+	</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+<head>
+<script type="text/javascript">
+function check(str){
+//document.write(str)
+alert(str)
+}
+
+</script>
+</head>
+<body>
+
+<select name="select" onchange="alert('<?php phpfun();?>'+this.value)">
+
+<option>---select---</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+</select>
+</body>
+</html>
+
+<?php
+
+function phpfun(){
+echo 'Selected Value:';
+}
+?>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Calendar</title>
+	<link rel='stylesheet' type='text/css' href='http://www.shodor.org/~migueldr/CSS/aboutcss.css'/>
+</head>
+<body>
+	<h1 id='title'>About</h1>
+	<p>This site uses PHP and HTML to create a calendar that displays the days in the month based on 
+	the starting day of the week.</p>
+	<p>The user inputs both using dropdown menus and when the 'Submit' button is clicked, the calendar 
+	reloads based on the input. Cookies are stored for the input, and expire after fifteen minutes. 
+	The boxes change color on hover, and the days of the week change color when their name is 
+	highlighted. By default, the calendar displays the current month. Sadly, February only displays 29 days
+	when the current year is a leap year.</p>
+	<p>Created by Miguel de los Reyes. Thanks to Shodor staff.</p>
+</body>
+</html>

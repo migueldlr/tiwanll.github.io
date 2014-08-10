@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<!-- AUTHOR: Aaron Weeden, Shodor Education Foundation, Jan/2014 -->
+<!-- MODIFIER: Miguel de los Reyes, Shodor Education Foundation, Feb/2014 -->
+
+<html>
+
+    <!-- *** HEAD *** -->
+    <head>
+
+        <!-- Title -->
+        <title>Ant Attraction Copy</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="ants.css"/>
+
+        <!-- JavaScript -->
+        <script type="text/javascript" src="ants copy.js"></script>
+
+    </head>
+
+    <!-- *** BODY *** -->
+    <body>
+
+        <h1>Ant Attraction</h1>
+
+        <div class="columnDiv">
+            <!-- Environment canvas -->
+            <canvas id="canvas"></canvas>
+
+            <!-- Ant images -->
+            <img id="northAnt" src="images/northAnt.png" class="ant"/>
+            <img id="southAnt" src="images/southAnt.png" class="ant"/>
+            <img id="eastAnt"  src="images/eastAnt.png"  class="ant"/>
+            <img id="westAnt"  src="images/westAnt.png"  class="ant"/>
+        </div>
+
+        <div id="controlDiv" class="columnDiv">
+
+            <h3>Controls</h3>
+
+            <div>
+                <button id="startButton" onclick="start();"> Start</button>
+                <button id="pauseButton" onclick="pause();"> Pause</button>
+                <button id="resumeButton" onclick="start();">Resume</button>
+                <button id="resetButton" onclick="reset();"> Reset</button>
+            </div>
+
+            <br/>
+            <div>
+                Number of rows: <select id="rowSelect" onchange="reset();"></select>
+                <br/>
+                Number of columns: <select id="colSelect" onchange="reset();"></select>
+                <br/>
+                Number of ants: <select id="antSelect" onchange="reset();"></select>
+                <br/>
+                Milliseconds per timestep: <input id="msInput" size="5" value="100"/>
+                <br/>
+                <label for="retreat">Ants can retreat:</label>
+                <input id="retreat" type="checkbox" onchange="retreat();" unchecked/>
+                <br />
+                <label for"displayOption">Display:</label>
+                <select id="displayOption" onchange="displayOption();">
+               		<option>Pheromone Level</option>
+					<option>Number of Ants</option>
+				</select>
+            </div>
+
+        </div>
+
+        <div>
+            <h3>Model Description</h3>
+
+            <p>
+            A 2-D environment contains ants that move around, releasing chemical
+            pheromones as they move.
+            </p>
+            <p>
+            Each cell in the environment contains a certain amount of pheromone, and some
+            cells contain single ants.
+            </p>
+            <p>
+            At each time step in the simulation, each ant will attempt to move into the
+            neighboring cell that contains the most pheromone. It does this by first
+            facing toward the cell into which it wishes to move, then moving into the cell.
+            </p>
+            <p>
+            If more than one neighboring cell contains the most pheromone, the ant will
+            choose among those cells at random.
+            </p>
+            <p>Cells that contain no ants will lose a single point of pheromone each time
+            step. Those that contain an ant will have no change to the amount of
+            pheromone. If an ant leaves a cell, that cell will gain a single point of
+            pheromone.
+            </p>
+            The environment also contains a single line of blocked squares on which ants are 
+            unable to move. This line can be up to 10 squares long, and may start at any place 
+            on the environment.
+            </p>
+
+        </div>
+
+        <div id="footer"><em>&copy; Miguel de los Reyes, Shodor Education Foundation, 2014
+        <br/>
+        <br/>
+        Model inspired by Shiflet, A. B. and Shiflet, G. W. (2006).
+        Module 11.3: Movement of Ants. </em>Introduction to Computational Science<em>
+        (pp. 422-431). Princeton, NJ: Princeton University Press.
+        <br />
+        Thanks to Aaron Weeden for the code and the help.
+        </em>
+        </div>
+    </body>
+
+</html>

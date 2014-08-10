@@ -1,0 +1,33 @@
+body{
+	text-align:center;
+	font-family:arial;
+}
+
+#footer a{
+	text-decoration:none;
+	color:#000000;
+}
+
+#footer a:hover{
+	color:#DDDDDD;
+}
+
+h1{
+	font-weight:normal;
+}
+
+.about{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header{
+	font-size:300%;
+}
+
+#footer{
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+}

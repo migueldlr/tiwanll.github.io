@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Reader</title>
+	<link rel='stylesheet' type='text/css' href='http://www.shodor.org/~migueldr/CSS/aboutcss.css'/>
+</head>
+<body>
+	<h1>About</h1>
+	<p class="about">
+	  Reader is a tool written in Javascript to help speed-read large passages of text by eliminating eye movement. A words per minute (wpm) 
+	  value is entered, and the user is able to read the passage as the words appear on screen. The user may also stop 
+	  and restart as necessary. The paragraph that is initially hidden can be shown with the 'Show Paragraph' button. The user may also 
+	  input their own text file to read using the file input.
+	</p>
+	<p class="about">
+	  Excerpt from <a href="http://en.wikipedia.org/wiki/DNA">Wikipedia</a>.<br />
+	  Inspired by the technology of <a href="http://www.spritzinc.com/">Spritz</a>. They actually have research on this, so check them out.<br />
+	  Made by Miguel de los Reyes. Much gratitude to the staff of Shodor.
+	</p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="http://www.shodor.org/~migueldr/CSS/aboutcss.css">
+	<title>About Lightning Bugs</title>
+</head>
+<body>
+	<h1>About</h1>
+	<p>
+		This model simulates the synchronization of the blinking of lightning bugs (or fireflies, if you prefer) in the night sky.
+	</p>
+	<p>
+		The lightning bugs will begin blinking as small groups, expanding their grouping until they all blink 
+		together. This is achieved using a radius that will include each fireflies' "neighbor" bugs. A bug 
+		blinks if the current time step is divisible by its blink rate.When a bug blinks, there is a percent 
+		chance for each neighbor to take its blink rate and average it with the bug's blink rate. Bugs are considered 
+		"grouped" if their neighbors have an average blink rate within the bug's blink rate, plus or minus the group 
+		tolerance value. This radius starts at 5, and increments by 5 when all bugs are grouped.
+	</p>
+	<p>
+		To open the menu, either click the "&gt;" or click the screen. To close, click the "&lt;" or click the screen again. The menu 
+		contains information including the time steps taken as well as the radius of lightning bugs' neighbors. The number 
+		of bugs, group tolerance, and percent chance are all alterable, but the simulation must be reset to apply these changes. 
+		Other simulation properties can be changed using 
+	</p>
+</body>
+</html>

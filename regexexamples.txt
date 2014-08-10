@@ -1,0 +1,9 @@
+Regular Expressions:
+
+Emails:
+
+/[a-zA-Z0-9._-]+@[a-zA-Z]+(\.(com|net|org|co|uk)){1,3}/g
+
+URLs:
+
+/(http(s)?:\/\/)?(www\.)?[a-zA-z._-]+(\.(com|net|org|co|uk)){1,3}(\/[a-zA-Z~]+)*(\/)?(\.(html|php))?/g

@@ -1,0 +1,36 @@
+/* AUTHOR: Aaron Weeden, Shodor Education Foundation, Jan/2014 
+*  MODIFIER: Miguel de los Reyes, Shodor Education Foundation, Feb/2014
+*/
+
+.columnDiv {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+.ant {
+	position: absolute;
+	left: -100px;
+	top: -100px;
+}
+
+button {
+	font-size: 14px;
+}
+
+body {
+	background-color: #DDDDDD;
+	font-family:verdana;
+}
+
+h1 {
+	font-weight:normal;
+}
+
+#footer {
+	font-size:80%;
+}
+
+h3{
+	font-weight: normal;
+}

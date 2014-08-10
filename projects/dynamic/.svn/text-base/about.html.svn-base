@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Dynamic Story</title>
+	<link rel='stylesheet' type='text/css' href='http://www.shodor.org/~migueldr/CSS/aboutcss.css'/>
+</head>
+<body>
+	<h1>About</h1>
+	<p>
+	  Dynamic Story is a tool modeled after the popular Mad Libs, allowing the user to enter words to create a story. 
+	  Dynamic Story uses PHP, focusing on using '$_GET' to capture input. Regular expressions were used to differentiate 
+	  'a' from 'an' and make the PHP code more readable. Some HTML and CSS is used, obviously.
+	</p>
+	<p>
+	  Made by Miguel de los Reyes. Much gratitude to the staff of Shodor.
+	</p>
+</body>
+</html>

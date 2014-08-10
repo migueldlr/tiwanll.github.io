@@ -1,0 +1,47 @@
+body{
+	font-family:arial, sans;
+	font-weight:normal;
+	text-align:center;
+}
+
+h1{
+	font-weight:normal;
+}
+
+p{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+a{
+	text-decoration:none;
+	color:#000000;
+}
+
+a:hover{
+	color:#DDDDDD;
+}
+
+input[type="text"]{
+	width:10em;
+	height:2em;
+	font-size:200%;
+}
+
+input[type="submit"]{
+	width:2em;
+	height:1em;
+	font-size:300%;
+	margin:1em;
+}
+
+#name{
+	font-size:1000%;
+}
+
+#footer{
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+}

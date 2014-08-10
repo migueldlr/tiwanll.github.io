@@ -1,0 +1,77 @@
+<html><head>
+
+		<script type="text/javascript" src="race.js"></script>
+		<script type="text/javascript" src="car.js"></script>
+		<script type="text/javascript" src="canvas.js"></script>
+
+		<script type="text/javascript">
+		
+
+			function init() {
+				
+				window.CAR_WIDTH = 50;
+				window.CAR_HEIGHT = 20;
+				window.CAR_SPACING = 5;
+				window.carList = [];	
+				window.ctxt = document.getElementById("output").getContext("2d");
+
+				//makes a new car with the name My Mercedes, pixels per gallon of 5, tank size of 10, color red and speed of 1
+				var testcar1 = new Car("My Mercedes", 30, 21.1, "red", 2.48);
+
+
+				var testcar2 = new Car("My Ferrari", 13, 22.5, "blue", 3.4);
+				testRace = new race(testcar1, testcar2);
+				// race(testcar1, testcar2);
+				
+				var canvas = new Canvas();
+			}
+
+			function Test() {};
+
+			Test.talk = function() {alert(3)};
+
+			function race(car1, car2) {
+
+				while(car1.getOdometer() < 500 && car2.getOdometer() < 500) {
+
+					moveCars(car1, car2);
+
+				}
+
+				if(car1.getOdometer() > car2.getOdometer()) {
+
+					alert(car1.getName() + " beat " + car2.getName());
+
+				}else if(car2.getOdometer() > car1.getOdometer()) {
+
+					alert(car2.getName() + " beat " + car1.getName());
+
+				}else {
+
+					alert(car1.getName() + " tied " + car2.getName());
+
+				}
+
+			}
+
+			function moveCars(car1,car2) {
+
+				car1.move();
+				car2.move();
+
+				canvas.redraw();
+
+			}
+
+		</script>
+
+	</head>
+
+	<body onload="init()">
+
+		<canvas width="700" height="500" id="output">No Canvas Support D:</canvas>
+
+	
+
+
+</body></html>

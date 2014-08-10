@@ -1,0 +1,64 @@
+body{
+	font-family:arial;
+	font-weight:normal !important;
+	text-align:center;
+}
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1{
+	font-size:300%;
+}
+
+p{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+a{
+	margin-left:5px;
+	margin-right:5px;
+	text-decoration:none;
+	color:#000000;
+}
+
+a:hover{
+	color:#DDDDDD;
+}
+
+.value{
+	color:#BEBEBE;
+}
+
+.freqheader{
+	text-align:right;
+	width:25px;
+}
+
+.highest{
+	color:#FF0000;
+}
+
+#dicerolls td{
+	width:25px;
+}
+
+#dicerolls{
+	text-align:center;
+}
+
+#colcountheader{
+	text-align:center;
+}
+
+#rolltitle{
+	vertical-align:center;
+}
+
+#menu{
+	margin-bottom:25px;
+}

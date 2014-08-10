@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+  <META NAME="GENERATOR" Content="AgentSheets v3.0.0">
+  <TITLE>AgentSheets&reg; Simulation</TITLE>
+<STYLE TYPE="text/css">
+<!--
+
+B {
+  font-weight: 700;
+  font-size: 14pt;
+  color: #666666;
+}
+
+P {
+  padding: 5px 0px;
+  margin: 0px;
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+A {
+  text-decoration: none;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+A:link { text-decoration: none;  color:#0033FF;}
+A:visited { text-decoration: none; color:#0033FF }
+A:hover { color: #FFFFFF  ;  background: #0033FF ; }
+A:active { color: #9BC3E9 ; background: #FF0000 ; }
+
+
+body {
+  margin: 2em;
+  background: #FFFFFF;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+H1 {
+  color: #AAAAAA;
+  font-size: 4.0em;
+  font-weight: bold;
+  text-align : center;
+  clear: both;
+  vertical-align: botton;
+}
+
+strong {
+  font-size: 1.0em;
+}
+
+-->
+</STYLE>
+</HEAD>
+
+<BODY BGCOLOR="#EEEEEE">
+
+<H1>Art Walk</H1>
+
+<center><p><strong>This model shows the behaviors of students walking from class to lunch with and without fine art in the way.</strong>
+<A HREF="readme.html" target="New">More Information</A></p></center>
+
+<CENTER>
+
+<!-- Progress Bar Applet -->
+<APPLET CODEBASE="applet" CODE="uAgentsheets.ProgressApplet.class" ARCHIVE="uAgentsheets.jar" WIDTH="400" HEIGHT="30" NAME="Progress" ALIGN="BOTTOM">
+  <PARAM NAME="background" VALUE="ffffff">
+  <PARAM NAME="updateInterval" VALUE="75">
+</APPLET><BR>
+
+<TABLE BORDER="1" CELLSPACING="1" CELLPADDING="1" ALIGN="CENTER">
+ 
+<!-- AgentSheets Simulation Applet -->
+<APPLET CODEBASE="applet" CODE="__mysimulation__.class" ARCHIVE="uAgentsheets.jar" WIDTH="850" HEIGHT="858" NAME="AgentSheets-Simulation" ALIGN="BOTTOM">
+  <PARAM NAME="WorksheetRows" VALUE="45">
+  <PARAM NAME="ShowSpeedControl" VALUE="true">
+  <PARAM NAME="ShowMessageBox" VALUE="true">
+  <PARAM NAME="ShowTools" VALUE="true">
+  <PARAM NAME="DefaultWorksheet" VALUE="Art Walk With Sculptures.ws">
+  <PARAM NAME="SimulationProperties" VALUE="Simulation-Properties.sip">
+  <PARAM NAME="GalleryTitle" VALUE="Gallery">
+  <PARAM NAME="ShowGallery" VALUE="true">
+  <PARAM NAME="ShowDropDownMenu" VALUE="true">
+  <PARAM NAME="DefaultTool" VALUE="ARROW_TOOL">
+  <PARAM NAME="AgentsSelectable" VALUE="true">
+  <PARAM NAME="AgentsDraggable" VALUE="true">
+  <PARAM NAME="ShowButtons" VALUE="true">
+  <PARAM NAME="AutoStart" VALUE="false">
+  <PARAM NAME="WorksheetColumns" VALUE="52">
+  <PARAM NAME="WorksheetTitle" VALUE="Worksheet">
+  <PARAM NAME="AgentsChangeable" VALUE="true">
+  <PARAM NAME="AllWorksheets" VALUE="Art Walk Worksheet.ws:Art Walk With Custom4.ws:Art Walk With Sculptures.ws:Art Walk With Custom3.ws:Art Walk With Custom2.ws:Art Walk With Custom1.ws">
+</APPLET><BR>
+
+
+</TABLE>
+
+<FONT SIZE="1" FACE="Helvetica, Arial">
+This applet was generated using <A HREF="http://www.agentsheets.com/" target="new"  title="AgentSheets is an easy to use simulation and game authoring tool">AgentSheets&reg;</a> Version 3.0.0 with <A HREF="http://www.agentsheets.com/products/" target="new" title="Ristretto turns AgentSheets simulations into complete web pages with Java applets. No plug-ins required" >Ristretto&reg;</A>.<P>
+
+
+<A HREF="http://www.agentsheets.com/" target="new" title="AgentSheets is a product by AgentSheets Inc."><IMG SRC="applet/agent-globe.gif" ALT="AgentSheets, Inc." WIDTH="87" HEIGHT="86" BORDER="0"></A><P>
+
+<a href="http://www.agentsheets.com/ristretto-help/" target="new" title="how to use these kinds of applets">[help |</A> <A HREF="http://www.agentsheets.com/showcase.html" target="new" title="showcase applets produced by AgentSheets&reg; with Ristretto" > more applets]</a>
+
+</FONT>
+
+</CENTER>
+</BODY>
+</HTML>

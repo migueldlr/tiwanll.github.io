@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="CSS/main.css" title="default"/>
+	<link rel="stylesheet" type="text/css" href="CSS/alt.css" title="alternate"/>
+	<script src="styleswitcher.js"></script>
+	<script src="jstest.js"></script>
+	<script src="circles.js" type="text/javascript"></script>
+	<script src="randomcolors.js" type="text/javascript"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Miguel de los Reyes - Portfolio</title>
+</head>
+
+<body onload="readCookie();">
+<canvas id="canvas"></canvas>
+	<div id="bigContainer">
+		<div id="title">
+			<a href="#" onclick="switchStyle(); return false;"><h1>Miguel de los Reyes</h1></a>
+		</div>
+		
+		<div class="scroller-anchor"></div>
+		<div id="menu" class="scroller">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="blog.php">Blog</a></li>
+					<li><a href="portfolio.html" id="currentLink">Portfolio</a></li>
+					<li id="dropdown"><a id="shodortitle" href="https://shodor.org">Shodor<span class="hidemobile"> Resources</span></a>
+						<ul>
+							<li><a href="https://webmail.shodor.org">Webmail</a></li>
+							<li><a href="https://wiki.shodor.org/"><span class="hidemobile">Shodor </span>Wiki</a> </li>
+							<li><a href="https://www.shodor.org/reflections">Reflections</a></li>
+							<li><a href="https://intranet.shodor.org/officeLocator"><span class="hidemobile">Time </span> Clock</a></li>
+							<li><a href="https://shodor.org/tools"><span class="hidemobile">Shodor </span>Intranet</a></li>
+						</ul>
+					</li>	
+				</ul>
+			</nav>
+		</div>
+		
+		<div id="content">
+			<h2 id="subheader">Portfolio</h2>
+			<p>
+				This is the official portfolio of Miguel de los Reyes, apprentice at Shodor.
+			</p>
+			<h3 class="section-title">Summer</h3>
+			<a href="projects/lightningbugs/lightningbugs.html"><h4 class="portfolio-link">Lightning Bugs</h4></a>
+			<a href="projects/FashionistaPhilHLD.pdf"><h4 class="portfolio-link">Fashionista Phil HLD</h4></a>
+			<a href="projects/gallery/gallery.html"><h4 class="portfolio-link">Gallery</h4></a>
+			<a href="projects/Resume.pdf"><h4 class="portfolio-link">Resume</h4></a>
+			<a href="projects/circles/circles.html"><h4 class="portfolio-link">Circles</h4></a>
+			<a href="projects/snowflake/snowflake.html"><h4 class="portfolio-link">Koch Snowflake</h4></a>
+			<a href="projects/stocks/stocks.html"><h4 class="portfolio-link">Stocks</h4></a>
+			<a href="projects/reader/reader.html"><h4 class="portfolio-link">Reader</h4></a>
+			<a href="projects/dynamic/dynamic.php"><h4 class="portfolio-link">Dynamic Story</h4></a>
+			<a href="projects/dice/dice.php"><h4 class="portfolio-link">Dice</h4></a>
+			<a href="projects/selector/selector.php"><h4 class="portfolio-link">Background Selector</h4></a>
+			<a href="projects/danejoe/danejoe.php"><h4 class="portfolio-link">Dane Joe</h4></a>
+			<a href="projects/calendar/calendar.php"><h4 class="portfolio-link">Calendar</h4></a>
+			<a href="projects/randomhex/randomhex.php"><h4 class="portfolio-link">Random Hex Code Generator</h4></a>
+			
+			<h3 class="section-title">Spring</h3>
+			<a href="projects/fire/index.html"><h4 class="portfolio-link">Fire Model</h4></a>
+			<a href="projects/ants/ants copy.html"><h4 class="portfolio-link">Ants</h4></a>
+			
+			<h3 class="section-title">Fall</h3>
+			<a href="projects/art walk data.xls"><h4 class="portfolio-link">Art Walk Data</h4></a>
+			<a href="projects/art walk Applet"><h4 class="portfolio-link">Art Walk Agentsheets Model</h4></a>
+			<a href="projects/Professional Office Ethics Assignment.docx"><h4 class="portfolio-link">Professional Ethics Assignment</h4></a>
+		</div>
+		<div id="footer">
+			<p>
+				Created by Miguel de los Reyes. Thanks to Shodor Staff.
+			</p>
+		</div>
+	</div>
+</body>
+
+</html>

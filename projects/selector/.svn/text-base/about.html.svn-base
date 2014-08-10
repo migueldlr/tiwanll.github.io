@@ -1,0 +1,19 @@
+<!DOCYPE html>
+<html>
+<head>
+	<link rel='stylesheet' type='text/css' href='http://www.shodor.org/~migueldr/CSS/aboutcss.css'/>
+	<title>About Background Color Selector</title>
+</head>
+<body>
+	<h1>About</h1>
+	<p>
+	  Background Color Selector is a tool written in PHP and HTML that allows the user to choose their desired 
+	  background color of the page from a dropdown menu. Due to Miguel's lack of imagination, only a few colors 
+	  are provided. The page reloads when the user changes their selection. Cookies of the user's choice are 
+	  stored for five minutes.
+	</p>
+	<p>
+	  Written by Miguel de los Reyes. Thanks to Shodor staff.
+	</p>
+</body>
+</html>

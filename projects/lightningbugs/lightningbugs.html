@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="bugsjs.js"></script>
+	<script src="menu.js"></script>
+	<link rel="stylesheet" type="text/css" href="lightningbugs.css">
+	<title>Lightning Bugs</title>
+</head>
+<body>
+	<canvas id="canvas">
+		If you can read this sentence in your web browser, it does not support the canvas element.<br /><br />
+		Sorry.
+	</canvas>
+	<div id="menu" class="hidden">
+	<div id="otherstuff">
+		<h1>Lightning Bugs</h1>
+		<br />
+		<div id="links">
+		<a href="http://shodor.org/~migueldr/portfolio.html">Home</a>
+		<a href="about.html">About</a>
+		</div>
+		
+		<br />
+		
+		Steps: <span id="steps"></span><br />
+		Radius: <span id="radius"></span><br />
+		
+		<br />
+		
+		Lines:   <input type="checkbox" id="SHOW_LINES" /><br />
+		Numbers: <input type="checkbox" id="SHOW_NUMBERS" /><br />
+		Mapping: <input type="checkbox" id="MAPPING" /><br />
+		Size Based: <input type="checkbox" id="SIZE_BASED" /><br />
+		
+		<br />
+		
+		Number of Bugs: <input type="number" id="NUM_BUGS" placeholder="NUM_BUGS" /><br />
+		Group Tolerance: <input type="number" id="GROUP_TOLERANCE" placeholder="GROUP_TOLERANCE" /><br />
+		Percent Chance: <input type="number" id="PERCENT_CHANCE" placeholder="PERCENT_CHANCE" /><br />
+		
+		<br />
+		
+		<span id="error"></span>
+		
+		<button type="button" id="start" disabled>Start</button>
+		<button type="button" id="stop">Stop</button>
+		<button type="button" id="reset">Reset</button>
+	</div>
+		<div id="arrow">&gt;</div>
+	</div>
+</body>
+</html>

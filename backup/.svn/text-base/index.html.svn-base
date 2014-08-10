@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fire Starter</title>
+		 
+		<!-- link to an external style sheet***************************************** -->
+        <link rel="stylesheet" type="text/css" href="fire.css" />
+		
+		<!-- link to an external .js file******************************************** -->
+		<script type="text/javascript" language="javascript" src="burn.js"></script>
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
+		
+	</head>
+	<!-- onload="makeForest() sets up the forest-->
+	<body onload="makeForest();">
+		
+		<div id="theBigBox">
+			
+			<h1 id="header">Fire Model</h1>
+			
+			<!-- A Bunch of Useful links********************************************** -->
+			<div id="linksMenu">
+				
+				<ul>
+	
+					<li> 
+						<a href="http://www.shodor.org/~migueldr/portfolio.html">Home</a>
+					</li>
+			
+					<li> 
+						<a href="about.html">About</a>
+					</li>
+			
+					<li> 
+						<a href="HLD-Fire.pdf">Project HLD PDF</a>
+					</li>
+			
+				</ul>    
+			</div>
+            <hr />
+            
+            <div id="options">
+			Burn Rate: <input type="text" id="burnrate" value="50"><br />
+			Burn Radius: <input type="text" id="burnradius" value="100"><br />
+			<span id="rowsandcolumns" style="display: none;">
+			Number of Rows: <input type="text" id="numberofrows" value="10"><br />
+			Number of Columns: <input type="text" id="numberofcolumns" value="10"><br />
+			</span>
+			<span id="trees">
+			Number of Trees: <input type="text" id="numberoftrees" value="100"><br />
+			</span>
+			Time Step (ms): <input type="text" id="timestep" value="100"><br />
+			
+			<form>
+			Burn Rate: 
+			<input type="radio" name="form" id="baseburnrate">Flat
+			<input type="radio" name="form" id="proportional" checked="checked">Proportional
+			</form>
+			
+			<form>
+			<input type="radio" name="form" id="grid" value="grid" onclick="changeInput('rowcol')">Grid
+			<input type="radio" name="form" id="random" value="random" onclick="changeInput('number')" checked="checked">Random
+			</form>
+		
+			<div> 
+				<button id="pauseButton" onclick="pause();"> Pause</button>
+                <button id="resumeButton" onclick="resume();">Resume</button>
+                <button id="resetButton" onclick="reset();"> Reset</button>
+            </div>
+            </div>
+			
+			
+		
+            <br />
+			<br />
+			<div id="resize" style="width:500px; height:500px;">
+			<canvas id="theForest" width="500" height="500px" style="border:1px solid black;" onmousemove="showMouse(event);" onmouseout="clearMouse();">
+				If you can read this sentence in your web browser, it does not support the canvas element.
+			</canvas>
+			</div>
+			
+			<div>
+				<p id="results">0 burned, 100 unburned.<br />
+				0% burned.<br />
+				0 time steps taken.</p>
+			</div>
+			<p id="mouselocation">0, 0</p>
+			<img src="images/tree.png" id="basetree" />
+			<img src="images/treefire1.png" />
+			<img src="images/treefire2.png" />
+			<img src="images/treefire3.png" />
+			<img src="images/burnedtree.png" />
+		</div>
+	</body>
+</html>

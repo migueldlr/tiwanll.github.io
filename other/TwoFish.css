@@ -1,0 +1,39 @@
+/* Author: Aaron Weeden, Shodor, 2014 */
+
+#environ {
+	position: relative;
+	border: 1px solid black;
+	width: 480px;
+	height: 480px;
+	background-color: lightblue;
+}
+
+#environ .cell {
+	position: absolute;
+}
+
+.cell {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+
+.cell.picked {
+	border: 2px solid black;
+}
+
+#playPause {
+	width: 60px;
+}
+
+.grass {
+	background: url('grass.gif');
+}
+
+.redfish {
+	background: url('redfish.gif');
+}
+
+.yellowfish {
+	background: url('yellowfish.gif');
+}

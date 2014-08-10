@@ -1,0 +1,15 @@
+body{
+	text-align:center;
+	font-family:arial;
+}
+
+h1{
+	font-size:300%;
+	font-weight:normal;
+}
+
+p{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}

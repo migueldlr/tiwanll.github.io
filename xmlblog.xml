@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<blog>
+	<section>
+		Summer
+		<entry>
+			<date>August 8, 2014</date>
+			<content>
+				Today I lacked things to do, so I asked Eric, who suggested I look into tools like Django, Bootstrap, and Pagerender, which I may 
+				work on in the future. I also met with Phil, Aaron, and Keith to discuss teaching programming concepts next Monday, which I look 
+				forward to. Hopefully, I will be able to teach well. I also watched the SSP presentations, which were interesting to watch and 
+				see. Many of the kids had very creative ideas for their models, which was great. I look forward to next week.
+			</content>
+		</entry>
+		<entry>
+			<date>August 7, 2014</date>
+			<content>
+				Today I spent most of my time helping Alex and Nathan with their Helm's Deep model. Most of the help they needed was with JavaScript, 
+				and I was happy to help. I also tested the Peanut programs for Phil, which I found very interesting. I especially liked the 
+				fractal generator, which I spent a good bit of time looking at. I also attempted to make the 'winword' program work by adding the 
+				needed dictionaries, but sadly, it did not work. Later in the day, I watched Darshan and Ayla compete against Eric and Phil with 
+				their towers, which was fun to watch.
+			</content>
+		</entry>
+		<entry>
+			<date>August 6, 2014</date>
+			<content>
+				Today I continued to work on my lightning bugs model, changing the menu to be hideable on click. This took some time as I wanted 
+				to use jQuery to simplify my code. I also considered making certain functions in my code part of the bug objects, but decided against 
+				it out of laziness. I added start and stop buttons to the model for added functionality. I also had an idea for Shodor's ODAA system. 
+				The Wiki would automatically email people on the day of their ODAA. However, this is likely impossible.
+			</content>
+		</entry>
+		<entry>
+			<date>August 5, 2014</date>
+			<content>
+				Today I continued to work on my lightning bugs model, which is now in my portfolio. I have added a menu with options that can 
+				be changed while the simulation runs as well as certain options that can be changed before the simulation runs. I have also 
+				changed certain behaviors, including the way the bugs calculate their rate. At the suggestion of Phil, I have also included 
+				color mapping, which uses Hue/Saturation/Value (hsl) colors that are calculated to illustrate the rate of the bugs. I look to 
+				add more functionality later this week.
+			</content>
+		</entry>
+		<entry>
+			<date>August 4, 2014</date>
+			<content>
+				Today marks the beginning of the fourth block, where I will be able to finish the work I have missed from the previous blocks. 
+				I worked on my alternate stylesheets for my website, which can be seen when the user clicks my name at the top of the page. I 
+				had little work as I was waiting on Eric and Phil to review an HLD before I could work on it, so Kristen assigned me the task 
+				of updating the pictures of the interns for the Shodor website. In the afternoon, I was assigned reception, and near the end of 
+				the day I was finally able to receive my HLD to work on.
+			</content>
+		</entry>
+		<entry>
+			<date>August 1, 2014</date>
+			<content>
+				Today I finished my Inkscape images, which can be seen in my portfolio. I also added a description and  of the circles, which is 
+				also in my portfolio. I tried to work on my website HLD, though I am not sure what I will need to write in it. I also fixed bugs 
+				and problems with my website's responsiveness, which can be seen when the browser window is resized. I am thinking of converting 
+				my portfolio into XML in the same manner as my blog and reading it the same way as well, though it may not be completely the same. 
+				Today was a good way to end the week and the third block.
+			</content>
+		</entry>
+		<entry>
+			<date>July 31, 2014</date>
+			<content>
+				Today I was assigned reception in the morning, a task that Nathan asked to do for me. I am extremely grateful, as I would not have 
+				shared the same enthusiasm he had about running the front desk. I continued to work on my website, adding responsiveness when the 
+				user makes the browser window less wide. I finished my GIMP images, which can be found in my portfolio under 'gallery'. I will be 
+				updating this in the future to add my Inkscape images, which I will work on either this week or next.
+			</content>
+		</entry>
+		<entry>
+			<date>July 30, 2014</date>
+			<content>
+				Today we were assigned a new mySQL project by Phil and Joel, which I will complete with other apprentices as a team. Our project 
+				is to create a website for a store that users can log in to and 'purchase' from the store, reducing its stock. The 'store owner' 
+				will be able to restock the store and add new products. This is very much a challenge, but I believe we can accomplish it. 
+				I later worked more on my website, adding the random colors to the rest of my page.
+			</content>
+		</entry>
+		<entry>
+			<date>July 29, 2014</date>
+			<content>
+				Today we covered resume skills with Kristen. We then built our own example resumes, and my resume can be found in the portfolio. 
+				Later, Simon Karpen came and spoke with us about technical interviews, which I found very interesting. We were able to 
+				practice writing code on a blackboard under certain constraints, which Ishaan and I completed successfully. Later in the day 
+				I worked on my website. Rosemary presented her work near the end of the day as well. Eric attempted to assign me more underling 
+				after class had ended, which I may be able to do.
+			</content>
+		</entry>
+		<entry>
+			<date>July 28, 2014</date>
+			<content>
+				Today the class was supposed to cover resume skills, but with Kristen busy, we were able to work on our own projects. I helped 
+				Ishaan teach the other apprentices recursion and helped them with their JavaScript snowflakes. I also fiddled with JavaScript, 
+				adding circles that generate on page load and on click, one of the most important changes I have made to my website of all time. 
+				Later in the day Ishaan presented his work from the entire apprenticeship program, which was very exciting to see.
+			</content>
+		</entry>
+		<entry>
+			<date>July 25, 2014</date>
+			<content>
+				Today I worked with other apprentices to do an example build of LittleFe, one of Shodor's miniature supercomputers. 
+				I worked on assembling a core and helped others with their cores. I helped shoulder surf the morning workshop as well as 
+				monitor them during lunch. After lunch, we worked on ou engineering challenge. We were tasked with working in pairs to 
+				create a boat that would hold as many marbles as we specified. Ryan and I predicted our boat would hold 70 marbles, but 
+				we underestimated by around 15 marbles. Luckily, our prediction was accurate enough to win us first place and along with it, 
+				two Jolly Ranchers.
+			</content>
+		</entry>
+		<entry>
+			<date>July 24, 2014</date>
+			<content>
+				Today in the morning Eric taught us about recursion, which we did did using JavaScript. He then challenged us to 
+				make the Koch Snowflake, a fractal generated recursively. I have finished this, but I have yet to finish the 
+				styling for the site, and it is not on my website yet. I also have yet to put up my bookmark and stock market websites, 
+				which also have more styling work to be done. In the afternoon, I shoulder surfed the Web Design workshop, which was 
+				very entertaining.
+			</content>
+		</entry>
+		<entry>
+			<date>July 23, 2014</date>
+			<content>
+				Today in the morning Amal taught us AJAX, which we used to start a new project. The project used JQuery to 
+				access data about stocks from Amal's website. The site then displayed the data as a table. I have yet to 
+				finish, though it is likely that I will be able to finish this week. In the afternoon, we discussed 
+				Electrical Engineering, which I found very fun. Using a capacitor, some resistors, a battery, and a 555 timer, 
+				we were able to make an LED flicker on and off. I also received more parts to make a binary LED counter, which 
+				I will work on at home.
+			</content>
+		</entry>
+		<entry>
+			<date>July 22, 2014</date>
+			<content>
+				Today the class covered regular expressions. I was documenting while the class covered regular expressions, so 
+				I missed out on the lesson. Luckily, I had already familiarized myself with regular expressions. After a quick 
+				refresher, I was able to catch myself up to speed. In the afternoon, we covered structural engineering again. 
+				We worked in teams to create towers that would support marbles in a cup. I worked with Rebecca to make a tower 
+				that was 28.5cm from the base to the cup and supported 114 marbles without falling, though we counted the score 
+				at 90 marbles. Luckily, we got first.
+			</content>
+		</entry>
+		<entry>
+			<date>July 21, 2014</date>
+			<content>
+				Today marked the beginning of the third block. We began our advanced programming unit, which covered JavaScript 
+				classes and objects. Sadly, I was shoulder surfing for the morning workshop and I missed the concepts covered. 
+				In the afternoon we began our unit on engineering, where we used legos and an online applet to learn about 
+				the center of gravity of structures. We also used a bridge applet to create structures that would support 
+				certain loads.
+			</content>
+		</entry>
+		<entry>
+			<date>July 18, 2014</date>
+			<content>
+				Today we continued our underling work, attempting to convert more files Levi had requested. Much to our 
+				disappointment, many of the files we had converted were incorrectly converted. Phil also mentioned creating 
+				a bookmark page, which would use mySQL to store a list of bookmarks. Hopefully I will be able to do this even 
+				with more projects coming next block. I look forward to the future.
+			</content>
+		</entry>
+		<entry>
+			<date>July 17, 2014</date>
+			<content>
+				Today we continued using mySQL. Joel taught us how to create views of tables, which function similarly 
+				to tables themselves. He also discussed 'JOIN' further, and covered 'LIKE'. I missed a few things he 
+				said as I had to watch the workshop kids on their break. I finished my Reader website, which is in my 
+				portfolio. Ishann, myself, and other apprentices were finally able to finish the task Eric assigned 
+				to us for Levi.
+			</content>
+		</entry>
+		<entry>
+			<date>July 16, 2014</date>
+			<content>
+				Today we worked with mySQL again, using PHP to look at joined tables in the browser. I have not 
+				yet incorporated these principles into a project, though I will hopefully do so soon. I began 
+				working on a project that was prompted by Phil, a page that would run through individual words 
+				of a paragraph, inspired by Spritz. Later in the day, Eric graciously assigned me, Ishaan and Rebecca 
+				(and later, others as well) the task of converting Word Documents into HTML files. This was 
+				likely the most fun I've had in years.
+			</content>
+		</entry>
+		<entry>
+			<date>July 15, 2014</date>
+			<content>
+				Today we continued to use mySQL, working on linking tables as well as continuing to familiarize 
+				ourselves with mySQL. I finished my Dynamic Pages site, fixing my CSS and cleaning up the layout, 
+				and it is now in my portfolio. I will likely be assigned another task by Phil or Joel soon. I 
+				spent the afternoon documenting the "Modeling your World" workshop, and it was great to see younger 
+				kids learning the same models and modeling principles I've learned in the past. 
+			</content>
+		</entry>
+		<entry>
+			<date>July 14, 2014</date>
+			<content>
+				Today, Joel taught us about mySQL, which we may use for a project related to databases. I find it 
+				fairly interesting, and I hope to learn more about it. I also worked on my PHP Dynamic Pages site, 
+				which I modeled after Mad Libs. It has not been finished, as I need to fix problems with styling 
+				and regular expressions. I decided to learn these today, as I wanted to differentiate 'a' from 'an'. 
+				I will probably finish it tomorrow.
+			</content>
+		</entry>
+		<entry>
+			<date>July 11, 2014</date>
+			<content>
+				Today I completed my PHP dice statistics site. I also converted my blog to an XML file, using PHP to 
+				extract from the file. I have one PHP assignment to complete, and I'll be able to complete it next 
+				week. I'll also be going back and touching up my other assignments, mixing my HTML and PHP more. 
+				It's been a fun and productive first week at Shodor and I look forward to the next topic we cover.
+			</content>
+		</entry>
+		<entry>
+			<date>July 10, 2014</date>
+			<content>
+				Today I finished my PHP background selector, which is now in my portfolio. I began work on my PHP dice 
+				roller, which I have finished the basics of. I hope to add a chart that can scale itself based on the 
+				data given, as well as the capability to switch between viewing the raw data and the chart. Hopefully, 
+				I can come up with other ways to improve the tool. I also spent some time helping people with their own PHP.
+			</content>
+		</entry>
+		<entry>
+			<date>July 9, 2014</date>
+			<content>
+				Today I continued to work on my PHP calendar, which I have finished and put on my portfolio page. I also 
+				began and finished Dane Joe, which was less challenging especially now that I feel more comfortable putting 
+				PHP and HTML together. I have begun work on a background selector, which I believe I can finish soon. I 
+				was also able to help a few people with their own calendars and other various PHP projects.
+			</content>
+		</entry>
+		<entry>
+			<date>July 8, 2014</date>
+			<content>
+				Today Joel taught us basic PHP, which we used to create a random hexadecimal color code generator. We also 
+				began working on our PHP projects. I chose to work on the calendar, which is proving to be quite difficult 
+				due to issues with PHP and the input itself. Hopefully I can find an alternative, if not a solution. I also 
+				spent today helping other people with Subversion, HTML, and their own PHP projects.
+			</content>
+
+		</entry>
+		<entry>
+			<date>July 7, 2014</date>
+			<content>
+				Today begins the second block, and my first day at Shodor since April. I was very excited to come back and 
+				continue to learn all sorts of things. Today we discussed Subversion, which is what we'll use to keep track 
+				of changes and revisions in our upcoming projects. We discussed some command line and vim topics alongside 
+				Subversion, as it is run in command line. I look forward to the rest of the week, and the weeks to come.
+			</content>
+
+		</entry>
+	</section>
+	
+	<section>
+		Spring
+		<entry>
+			<date>April 5, 2014</date>
+			<content>
+				Today we continued our programming projects. I added a great deal of functionality to our model, giving the 
+				user the ability to resize the forest, change the forest to a grid, and displaying the burn radius circle 
+				on the cursor. I also helped make the graphics for the trees using GIMP. I've definitely learned a lot 
+				from this project, and I am definitely looking forward to presenting our project on the 12th.
+			</content>
+		</entry>
+		<entry>
+			<date>March 29, 2014</date>
+			<content>
+				Today we began our programming projects, which will be written in Javascript. We will be modeling the spread of 
+				a forest fire based on a number of variables, including the number of trees, arrangement of trees, spread 
+				probability of the fire, etc. This will be completed and presented on the 12th, and hopefully by then 
+				our model will be functional and understandable. I hope to learn much from this project.
+			</content>
+		</entry>
+		<entry>
+			<date>March 15, 2014</date>
+			<content>
+				Today we continued discussion of parallel thinking and computing. We learned how to boot BCCD on the machines, 
+				as well as how to write algorithms for parallelization of tasks. Aaron and Phil taught the lessons on coding 
+				in C, which we then compiled and ran in the terminal. Vikram and Elise, two Shodor interns, taught us about 
+				more parallel computing concepts including data vs task parallelization and diminishing returns.
+			</content>
+		</entry>
+		<entry>
+			<date>March 8, 2014</date>
+			<content>
+				Today we discussed a multitude of topics. Aaron and Patricia covered parallel computing in BCCD, which we used 
+				to compile and run code, as well as discuss parallel thinking. Mobeen taught the class about computer hardware, 
+				and led an activity on finding a computer build under a certain price value, which I found quite interesting. 
+				Phil helped the class with parallel computing, and Iain taught us about Conway's Game of Life, which is quite 
+				interesting on BCCD.
+			</content>
+		</entry>
+		<entry>
+		  <date>March 1, 2014</date>
+		  	  <content>
+				  Today we discussed parallel computing using bootable cluster CDs. We familiarized ourselves with the Linux 
+		  		  terminal, and used it to run different simulations, including one that modeled a pandemic and another modeling 
+		  		  the formation of a galaxy. We also covered the pros and cons of using multiple processors and shared vs. 
+		  		  distributed memory, which I found very interesting.
+			  </content>
+
+		</entry>
+		<entry>
+		  <date>February 1, 2014</date>
+		  	  <content>
+		  		  Today we presented our modeling projects to the class. I am confident we did well with ours, as we were able to 
+		  		  explain our model well and answer all related questions. I was also happy to see the other models 
+		  		  that had been made. After our presentations, we covered basic programming techniques with Safari's Javascript 
+		  		  console. Hopefully, we will be able to further explore programming concepts.
+			  </content>
+
+		</entry>
+	</section>
+	
+	<section>
+		Fall
+		<entry>
+		  <date>December 14, 2013</date>
+		  	<content>
+		  		Today is the last Shodor session before we have to present our projects on February the 1st. Our project is done, 
+		  		and I do not think we will have to continue work on our optional workday. I am eager to present, and 
+		  		I am looking forward to seeing the projects of other groups. I also worked on my HTML project and helped others with theirs, 
+		  		though I ended up not changing much on my website.
+			</content>
+
+		</entry>
+		<entry>
+		  <date>December 7, 2013</date>
+		  	<content>
+		 		Today we began work on our modeling projects. I worked with my partner Luis, and with hard work we finished our model 
+		  		even with many problems concerning the size of our model. We collected data for our project as well, and will use this data 
+		 		for our presentation. We will continue working on our project next week, and I look forward to our presentation.
+			</content>
+		</entry>
+		<entry>
+		  <date>November 23, 2013</date>
+		  	<content>
+		 		Today we watched Ron's presentation on Business Ethics. We were assigned a Business Ethics assignment alongside 
+		  		our HTML and modeling projects. Joel taught as well, covering how to connect to Shodor servers from other computers. 
+		 	 	I also worked on my HTML project, reorganizing files and changing layouts. I am looking forward to the modeling project, 
+		  		on which we will begin working on the 7th and 14th of December.
+			</content>
+		</entry>
+		<entry>
+		  <date>November 16, 2013</date>
+		  	<content>
+				Today we began learning modeling in both Vensim and AgentSheets. Having been part of SSP, I have already been exposed 
+				to these techniques; however, I do think it was good practice for a topic I learned almost a year ago. Using the modeling 
+				software, we modeled hunger and the factors influencing it, as well as disease and how it spreads. I also worked on my HTML 
+				project and I am looking forward to working on our modeling projects, in which the skills we learned today to make our own models 
+				and present them.
+			</content>
+		</entry>
+	</section>
+</blog>

@@ -1,0 +1,25 @@
+<html>
+    <head>
+    	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
+        <script src="snowflake.js"></script>
+        <link rel='stylesheet' type='text/css' href='snowflakecss.css'/>
+        <title>Snowflake</title>
+    </head>
+    <body>
+    	<h1 id="header">Koch Snowflake</h1>
+    	Iterations: <input type="number" id="level" min="0" max="8" value="0" onchange="changelevel();" />
+		<p id="error"></p>
+    	<div id="resize" width="500" height="500" style="width:500px; height:500px;">
+        	<canvas id="canvas" width="500" height="500" style="border:1px solid black;">
+        		If you can read this sentence in your web browser, it does not support the canvas element.<br /><br />
+        		Sorry.
+        	</canvas>
+        </div>
+		<div id='footer'>
+			<a href='http://shodor.org/~migueldr/portfolio.html'>Home</a>
+			<a href='about.html'>About</a>
+		</div>
+    </body>
+</html>

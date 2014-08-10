@@ -1,0 +1,29 @@
+body{
+	font-family:arial, sans;
+	text-align:center;
+}
+
+a{
+	color:#000000;
+	text-decoration:none;
+}
+
+
+p{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#footer a:hover{
+	color:#DDDDDD;
+}
+
+#header{
+	font-weight:normal;
+	font-size:400%;
+}
+
+.entered{
+	color:#AC1406;
+}

@@ -1,0 +1,104 @@
+html{
+	margin: 0px;
+	height:100%;
+}
+
+body{
+	font-family:arial;
+	font-weight:normal;
+	text-align:center;
+}
+
+td{
+	width:100px;
+	height:100px;
+	-webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+form{
+	text-align:center;
+}
+
+p{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+a{
+	text-decoration:none;
+	color:#000000;
+}
+
+a:hover{
+	color:#DDDDDD;
+}
+
+.emptybox{
+	background-color:#C5C7C9;
+	font-size:200%;
+	vertical-align:text-top;
+}
+
+.datebox{
+	background-color:#AEC6DF;
+	font-size:200%;
+	vertical-align:text-top;
+}
+
+.Sunday{
+	background-color:#9BB9D7;
+}
+
+.Saturday{
+	background-color:#9BB9D7;
+}
+
+.emptybox.Saturday,
+.emptybox.Sunday{
+	background-color:#B7BABC;
+}
+
+.headerbox{
+	background-color:#89ABD0;
+	height:50px;
+	text-align:center;
+}
+
+.clicked{
+	background-color:#DEAEAE;
+}
+
+.clicked.Saturday,
+.clicked.Sunday{
+	background-color:#D69B9B;
+}
+
+td:hover{
+	background-color:#EEEEEE !important;
+}
+
+.hovered{
+	background-color:#EEEEEE !important;
+}
+
+#monthname{
+	font-size:300%;
+	margin:0px;
+}
+
+#footer{
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+}

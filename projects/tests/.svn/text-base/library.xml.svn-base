@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<library>
+	<book>
+		Fiction
+		<title>
+			To Kill a Mockingbird
+		</title>
+		<author>
+			Harper Lee
+		</author>
+	</book>
+	<book>
+	
+	</book>
+	<video>
+		<title>
+			Jurassic Park
+		</title>
+	</video>
+
+
+</library>

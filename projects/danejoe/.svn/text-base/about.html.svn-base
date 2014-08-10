@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Dane Joe</title>
+	<link rel='stylesheet' type='text/css' href='http://www.shodor.org/~migueldr/CSS/aboutcss.css'/>
+</head>
+<body>
+	<h1>About</h1>
+	<p>
+	  Dane Joe is a tool for switching the first letters and last letters of the first and last names of people written 
+	  using PHP and some HTML and CSS. For example, Jane Doe becomes "Dane Joe". The tool also automatically 
+	  makes the first letter capitalized and the rest lowercase.
+	</p>
+	<p>
+	  Made by Miguel de los Reyes, whose name sadly does not capitalize correctly in his own code. Much gratitude to the staff of Shodor.
+	</p>
+</body>
+</html>
