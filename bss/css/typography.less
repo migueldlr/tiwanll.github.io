@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+@ff: Raleway, sans-serif !important;
+@text: Arial, sans-serif !important;
+
+@base-size: 16px;
+@magic-number: 24px;
+
+.content-page {
+
+  ul, ol {
+    margin: 0;
+    margin-bottom: @magic-number;
+  }
+
+  li {
+    line-height: 1.5;
+    margin-bottom: @base-size;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-shadow: 0 0 10px white;
+    text-align: center;
+    margin: 0;
+    line-height: 250px;
+  }
+
+  p {
+    font-size: @base-size;
+    line-height: @magic-number;
+    margin-top: 0;
+    margin-bottom: @magic-number;
+    font-family: @text;
+
+    &.sidebar-contacts {
+      margin-bottom: 10px;
+  
+      &:last-child {
+        margin-bottom: @magic-number;
+      }
+    }
+  }
+
+  h2, h3 {
+    margin-top: 0;
+    margin-bottom: @magic-number;
+    padding-bottom: 5px;
+    font-family: @ff;
+  }
+
+  h2 {
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-weight: 500;
+  }
+
+  .half h3 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,102 @@
+.content-page {
+	background: #fff;
+	
+	header {
+		width: 100%;
+		height: 250px;
+		background: url("../img/Helix-II-compressed.jpg") no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+	}
+
+	nav {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.container {
+		padding: 30px;
+		margin: 0 auto;
+		margin-top: 27px;
+		
+		a {
+			color: #16a085;
+			text-decoration: none;
+			
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	
+	aside {
+		
+		table {
+			margin-bottom: @magic-number;
+
+			tr {
+			
+				&:nth-child(odd) {
+					background: #D3DEF3;
+				}
+			}
+			
+			td {
+				text-align: center;
+				padding: 5px;
+				border: 1px solid #ccc;
+				font-size: 14px;
+			}
+		}
+	}
+
+	@footer-height: 100px;
+	footer {
+		clear: both;
+		height: @footer-height;
+		background: #ccc;
+		padding: 35px;
+		
+		.copyright {
+			text-align: center;
+		}
+	}
+
+}
+
+@media screen and (min-width: 580px) {
+	
+	.row {
+
+		& .half {
+			width: 45%;
+			margin-left: 10%;
+			float: left;
+
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+}
+	
+
+@media screen and (min-width: 1280px) {
+	.container {
+		width: 1260px;
+		
+		.content {
+			width: 70%;
+			float: left;
+		}
+
+		.sidebar{
+			width: 25%;
+			float: left;
+			margin-left: 5%;
+		}
+	}
+}

@@ -1,0 +1,500 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+.content-page ul,
+.content-page ol {
+  margin: 0;
+  margin-bottom: 24px;
+}
+.content-page li {
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.content-page h1 {
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-shadow: 0 0 10px white;
+  text-align: center;
+  margin: 0;
+  line-height: 250px;
+}
+.content-page p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: Arial, sans-serif;
+}
+.content-page p.sidebar-contacts {
+  margin-bottom: 10px;
+}
+.content-page p.sidebar-contacts:last-child {
+  margin-bottom: 24px;
+}
+.content-page h2,
+.content-page h3 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  padding-bottom: 5px;
+  font-family: Raleway, sans-serif;
+}
+.content-page h2 {
+  border-bottom: 1px solid #ccc;
+  font-weight: 400;
+}
+.content-page h3 {
+  font-weight: 500;
+}
+.content-page .half h3 {
+  text-align: center;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  padding: 0 30px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 100px !important;
+  height: 100px;
+  float: right;
+  margin-left: 10px;
+  padding: 0 10px;
+}
+nav ul li:hover {
+  font-weight: bold;
+}
+nav ul li.active {
+  font-weight: bold;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+}
+#home-page {
+  color: #fff;
+  background: #253139;
+}
+#home-page #top {
+  min-height: 100%;
+  width: 100%;
+  background: url('../img/Helix-II-compressed.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#home-page h1,
+#home-page h2 {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  text-shadow: 0 0 10px white;
+}
+#home-page h1 {
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+#home-page h2 {
+  text-align: center;
+  line-height: 36px;
+}
+#home-page h2.title {
+  margin-bottom: 150px;
+}
+#home-page #journal {
+  width: 100%;
+  height: 100%;
+}
+#home-page a.scroll-down {
+  position: absolute;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 50px;
+  width: 38px;
+  height: 44px;
+  background: url('../img/arrow-bottom.png');
+  overflow: hidden;
+  display: inline-block;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+#home-page .info-block {
+  background: rgba(0, 0, 0, 0.7);
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+#home-page .info-block > * {
+  display: table-cell;
+  vertical-align: top;
+}
+#home-page .info-block .info-thumbnail {
+  width: 50%;
+}
+#home-page .info-block .info-thumbnail img {
+  width: 100%;
+}
+#home-page .info-block .info-content {
+  padding: 16px;
+}
+#home-page .info-block .info-content h2 {
+  margin-top: 0;
+}
+#home-page .info-block .info-button {
+  display: block;
+  width: auto;
+  background: #ccc;
+  width: 150px;
+  padding: 10px;
+  margin: 0 auto;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+#home-page .info-block .info-button:hover {
+  background: #ccc;
+  border-radius: 10px;
+}
+#home-page p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.content-page {
+  background: #fff;
+}
+.content-page header {
+  width: 100%;
+  height: 250px;
+  background: url("../img/Helix-II-compressed.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content-page nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content-page .container {
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 27px;
+}
+.content-page .container a {
+  color: #16a085;
+  text-decoration: none;
+}
+.content-page .container a:hover {
+  text-decoration: underline;
+}
+.content-page aside table {
+  margin-bottom: 24px;
+}
+.content-page aside table tr:nth-child(odd) {
+  background: #D3DEF3;
+}
+.content-page aside table td {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+.content-page footer {
+  clear: both;
+  height: 100px;
+  background: #ccc;
+  padding: 35px;
+}
+.content-page footer .copyright {
+  text-align: center;
+}
+#side-menu {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  background-color: rgb(37, 49, 57);
+  height: 100%;
+  -webkit-transition: all .25s ease;
+     -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+       -o-transition: all .25s ease;
+          transition: all .25s ease;
+}
+
+#side-menu.show {
+  left: 0;
+}
+#side-menu nav {
+  padding: 0;
+}
+#side-menu nav ul li{
+  display: block;
+  float: left;
+  margin-right: 75px;
+  height: 75px;
+}
+
+#menutrigger{
+  display: none;
+  height: 50px;
+  width: 50px;
+  float: right;
+  font-size: 200%;
+  padding-top: 5px;
+}
+#darkness{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  position: absolute;
+  display: none;
+}
+
+#darkness.show{
+  display: block;
+}
+
+@media screen and (min-width: 580px) {
+  .row .half {
+    width: 45%;
+    margin-left: 10%;
+    float: left;
+  }
+  .row .half:first-child {
+    margin-left: 0;
+  }
+
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1260px;
+  }
+  .container .content {
+    width: 70%;
+    float: left;
+  }
+  .container .sidebar {
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 780px){
+  #menutrigger{
+    display: block;
+  }
+  section nav ul{
+    display: none;
+  }
+}
