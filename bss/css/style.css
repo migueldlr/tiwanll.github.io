@@ -423,11 +423,12 @@ nav ul li a {
   width: 250px;
   background-color: rgb(37, 49, 57);
   height: 100%;
+  transition: all .25s ease;
   -webkit-transition: all .25s ease;
      -moz-transition: all .25s ease;
       -ms-transition: all .25s ease;
        -o-transition: all .25s ease;
-          transition: all .25s ease;
+          
 }
 
 #side-menu.show {
@@ -460,6 +461,11 @@ nav ul li a {
   z-index: 3;
   position: fixed;
   display: none;
+  -webkit-transition: all .25s ease;
+     -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+       -o-transition: all .25s ease;
+          transition: all .25s ease;
 }
 
 #darkness.show{
